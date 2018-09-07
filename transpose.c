@@ -3,7 +3,7 @@
 void read(int rows, int columns, int matrix[rows][columns]) {
    for(int i = 0; i < rows; i++) {
       for(int j = 0; j < columns; j++) {
-         printf("Enter the number at position %d %d: ", i + 1, j + 1);
+         printf("Enter the number at position %d,%d: ", i + 1, j + 1);
          scanf("%d:", &matrix[i][j]);
       }
    }
